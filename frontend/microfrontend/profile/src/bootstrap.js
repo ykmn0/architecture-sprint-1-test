@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Profile from './components/Profile'; // Предполагаем, что Profile является основным компонентом
+import Profile from './components/Profile';
 
 const render = () => {
   ReactDOM.render(<Profile />, document.getElementById('profile-root'));
